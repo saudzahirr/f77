@@ -8,6 +8,10 @@
         CHARACTER          :: A
         CHARACTER * 10     :: S
 
+        REAL               :: PI
+C       Constant
+        PARAMETER (PI = 3.141592654)
+
         I = 1
         R = 1.0
         D = 1.0D0
@@ -25,4 +29,5 @@
         PRINT *, B
         PRINT *, A
         PRINT *, S
+        PRINT *, 'PI = ', PI
       END
